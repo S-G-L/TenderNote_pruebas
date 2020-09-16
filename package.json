@@ -1,0 +1,19 @@
+{
+  "name": "backend_tn_project",
+  "version": "1.0.0",
+  "description": "Aplicativo móvil para los tenderos independientes sobre el manejo y el control del inventario que estos llevan a sus locales. La aplicación cuenta con un registro de usuario (tendero) donde posteriormente esta información será guardada en una base de datos, al ingresar el usuario al aplicativo, podrá visualizar sus productos en una imagen con sus respectivos precios y cantidades y dará la opción de controlar su inventario sea porque se reciben productos de parte de su proveedor o se venden a sus clientes.",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Jerson Álvarez Ramirez, Juan Pablo Bolivar Marín, Alejandro Duque Florez, Sebastian Gallego Londoño",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
